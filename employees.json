@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name":"Johnny Walker",
+        "role":"Alcohol taster",
+        "salary":"45,000"
+    }, 
+    {
+        "id":1,
+        "name":"Jose Cuervo",
+        "role":"executive",
+        "salary":"85,000"
+    },
+    {
+        "id":3,
+        "name":"Jim Beam",
+        "role":"marketing",
+        "salary":"55,000"
+    },
+    {
+        "id":4,
+        "name":"Jack Daniels",
+        "role":"manager",
+        "salary":"49,000"
+    },
+    {
+        "id":5,
+        "name":"Don Julio",
+        "role":"Sales",
+        "salary":"37,500"
+    }
+
+]
