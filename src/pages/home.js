@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import employeeDisplay from "../components/employeeDisplay";
-import employeeyArray from "../employees.json";
+import employeeArray from "../employees.json";
 
-class Home extends Component {
+class home extends Component {
     state = {
         filter: "",
         filterBy: "name",
