@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EmployeeDisplay = (props) => {
+const employeeDisplay = (props) => {
     return (
         <table className="table">
             <tr>

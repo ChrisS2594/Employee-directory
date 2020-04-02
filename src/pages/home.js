@@ -24,11 +24,11 @@ class home extends Component {
                 employee.name.toLowerCase().includes(this.state.filter.toLowerCase())
             ));
         } else if (this.state.filterBy === "role") {
-            filteredEmployees = employeeyArray.filter(employee => (
+            filteredEmployees = employeeArray.filter(employee => (
                 employee.role.toLowerCase().includes(this.state.filter.toLowerCase())
             ));
         } else if (this.state.filterBy === "salary") {
-            filteredEmployees = employeeyArray.filter(employee => (
+            filteredEmployees = employeeArray.filter(employee => (
                 employee.salary.toString().includes(this.state.filter)
             ));
         }
