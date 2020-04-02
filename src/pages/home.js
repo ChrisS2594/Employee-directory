@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import EmployeeDisplay from "../components/EmployeeDisplay";
+import employeeDisplay from "../components/employeeDisplay";
 import employeeyArray from "../employees.json";
 
 class Home extends Component {
@@ -62,11 +62,11 @@ class Home extends Component {
                         </select>
                     </div>
                 </div>
-                <EmployeeDisplay employees={filteredEmployees} />
+                <employeeDisplay employees={filteredEmployees} />
             </div>
         )
     }
 }
 
-export default Home;
+export default home;
 

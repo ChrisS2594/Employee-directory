@@ -20,4 +20,4 @@ const EmployeeDisplay = (props) => {
         </table>
     )
 }
-export default EmployeeDisplay
+export default employeeDisplay
